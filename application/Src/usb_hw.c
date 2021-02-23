@@ -275,8 +275,8 @@ void Get_VidPid(void)
 	
 	DevConfigGet(&tmp);
 	
-  Composite_DeviceDescriptor[8] = LOBYTE(tmp.vid);
-	Composite_DeviceDescriptor[9] = HIBYTE(tmp.vid);
+  Composite_DeviceDescriptor[8] = LOBYTE(0x0584);
+	Composite_DeviceDescriptor[9] = HIBYTE(0x0584);
 	Composite_DeviceDescriptor[10] = LOBYTE(tmp.pid);
 	Composite_DeviceDescriptor[11] = HIBYTE(tmp.pid);
 }

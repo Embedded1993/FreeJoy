@@ -46,7 +46,7 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-uint16_t usb_vid = 0x0483;
+uint16_t usb_vid = 0x0484;
 uint16_t usb_pid = 0x5750;
 /* Extern variables ----------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
@@ -63,7 +63,7 @@ uint8_t Composite_DeviceDescriptor[Composite_SIZ_DEVICE_DESC] =
     0x00,                       /*bDeviceSubClass*/
     0x00,                       /*bDeviceProtocol*/
     0x40,                       /*bMaxPacketSize40*/
-    0x83,            						/*idVendor = 0x0483 */
+    0x84,            						/*idVendor = 0x0484 */
     0x04,
     0x50,						            /*idProduct = 0x5750*/
     0x57,            
@@ -301,7 +301,7 @@ uint8_t Composite_StringVendor[Composite_SIZ_STRING_VENDOR] =
     Composite_SIZ_STRING_VENDOR, /* Size of Vendor string */
     USB_STRING_DESCRIPTOR_TYPE,  /* bDescriptorType*/
     /* Manufacturer: "STMicroelectronics" */
-    'F', 0, 'r', 0, 'e', 0, 'e', 0, 'J', 0, 'o', 0, 'y', 0
+    'N', 0, 'W', 0, 'S', 0, ' ', 0, 'P', 0, 'E', 0, 'D', 0, 'A', 0, 'L', 0, 'S', 0
   };
 
 uint8_t Composite_StringProduct[Composite_SIZ_STRING_PRODUCT] =

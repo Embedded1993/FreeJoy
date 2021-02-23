@@ -44,7 +44,7 @@
 /* Private define ------------------------------------------------------------*/
 /* Private macro -------------------------------------------------------------*/
 /* Private variables ---------------------------------------------------------*/
-uint16_t usb_vid = 0x0483;
+uint16_t usb_vid = 0x0484;
 uint16_t usb_pid = 0xBEBA;
 /* Extern variables ----------------------------------------------------------*/
 /* Private function prototypes -----------------------------------------------*/
@@ -61,7 +61,7 @@ uint8_t CustomHID_DeviceDescriptor[CUSTOMHID_SIZ_DEVICE_DESC] =
     0x00,                       /*bDeviceSubClass*/
     0x00,                       /*bDeviceProtocol*/
     0x40,                       /*bMaxPacketSize40*/
-    0x83,            						/*idVendor = 0x0483 */
+    0x84,            						/*idVendor = 0x0484 */
     0x04,
     0xBA,						            /*idProduct = 0xBEBA*/
     0xBE,            
@@ -184,7 +184,7 @@ uint8_t CustomHID_StringProduct[CUSTOMHID_SIZ_STRING_PRODUCT] =
   {
     CUSTOMHID_SIZ_STRING_PRODUCT,          /* bLength */
     USB_STRING_DESCRIPTOR_TYPE,        /* bDescriptorType */
-    'F', 0, 'r', 0, 'e', 0, 'e', 0, 'J', 0, 'o', 0, 'y', 0,
+    'N', 0, 'W', 0, 'S', 0, ' ', 0, 'P', 0, 'E', 0, 'D', 0, 'A', 0, 'L', 0, 'S', 0,
     ' ', 0, 'F', 0, 'l', 0, 'a', 0, 's', 0, 'h', 0, 'e', 0,
     'r', 0
   };

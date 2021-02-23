@@ -44,7 +44,7 @@ static const dev_config_t init_config =
 	.device_name[18] = 0,
 	.device_name[19] = 0,			
 	
-	.vid = 0x0483,										// ST
+	.vid = 0x0484,										// ST
 	.pid = 0x5757,										
 
 	.button_debounce_ms = 50,					// debounce time for all buttons
